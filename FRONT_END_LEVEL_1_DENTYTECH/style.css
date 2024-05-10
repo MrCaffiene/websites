@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: gilory;
+    /* background-color: aquamarine; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color:navy; */
+}
+#navbar{
+    height:100px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* for centering at y-axis */
+    justify-content: space-between;
+    padding : 0px 40px; 
+}
+#nav_part1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#navbar h3{
+    font-size : 17px;
+    font-weight: 500;
+    border : 1.5px solid black;
+    padding : 5px 10px;
+    border-radius: 50px; 
+}
+#navbar i{
+    font-size : 17px;
+    font-weight: 500;
+    border : 1.5px solid black;
+    padding : 5px 8px;
+    border-radius: 50px; 
+}
+#navbar h1{
+    font-weight : 500;
+    font-size: 22px;
+    text-transform : uppercase;
+}
+ 
+#navbar button{
+    padding : 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size : 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+/* #btn1{
+    padding : 7px 12px;
+    border-radius : 50px;
+    border : 1.5px solid black;
+    font-size : 16px;
+    font-weight : 600px;
+    background-color: white;
+}*/
+#btn2{
+    background-color: orangered !important;
+    color: white;
+    border: none !important;
+} 
+#main>h1{
+    font-size: 110px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position:top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+#img1{
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform:translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform:translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left-txt{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    font-weight: 500;
+}
+#btm-right-txt{
+   position: absolute;
+   bottom: 5%;
+   right: 3%;
+   font-size: 17px;
+   font-weight: 500;
+}
+#social-media-icons{  
+    position:absolute;
+    right: 20%;
+    bottom:100%;
+    font-size: 25px;
+}
+#btm-middle-icons{
+    position: absolute;
+    bottom: 0%;
+    right: 48.5%;
+    font-size: 40px;
+    font-weight: 100;
+}
+#semi-circle{
+    position: absolute;
+    left: 50%;
+    bottom: -3.9%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 100px;
+    border: solid black;
+    border-bottom:none;
+    border-radius: 150px 150px 0 0;
+}
+#btm-left-dot{
+    color:orangered;
+    font-size: 10px;
+    position: absolute;
+    bottom: 110%;
+}
+#brand-logo{
+    border-style: none !important;
+    font-size: 22px !important;
+    background-color:orangered;
+    color: white;
+}
+#brand-logo{
+    position: absolute;
+    left:40.2%;
+    top: 5%;
+}

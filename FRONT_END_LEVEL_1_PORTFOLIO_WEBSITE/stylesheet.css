@@ -1,0 +1,143 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: Gilroy, Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    position: fixed;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 8px;
+}
+#navbar h3{
+    background-color: black;
+    color:white;
+    padding: 8px 12px;
+    border-radius: 80px;
+    font-size: 15px;
+    margin-left: 3px;
+}
+#intro{
+    height: 36%;
+    width: 100%;
+    padding: 20px;
+    /* padding-top: 0px; */
+}
+#intro h1{
+    font-size: 90px;
+    line-height: 90px;
+}
+#places{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size:20px;
+}
+#places h3,h4{
+    font-size: 20px;
+}
+#hero-image{
+    height:100%;
+    width:100%;
+    background-image: url("source/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg");
+    background-size: cover;
+}
+#about{
+    height:45%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 35px;
+    /* background-color: red; */
+    gap:20px;
+}
+#about-part1{
+    height: 100%;
+    /* background-color:rgb(11, 145, 145); */
+    width:60%;
+    font-size:39px;
+    line-height:55px;
+}
+#about-part2{
+    border-left: solid black;
+    font-weight: 100;
+    padding-left:15px;
+    height: 100%;
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+#about-part2 h3{
+    font-weight: 550;
+    font-size:25px;
+}
+#icons i{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius:50px;
+}
+#section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px;
+    gap: 20px;
+    height: 45%;
+    width:100%;
+    border-top: solid black;
+}
+#section2-part1{
+    display: flex;
+    justify-content: space-between;
+    width:28%;
+    border-right: solid black;
+}
+#section2-part1>i{
+    font-size: 24px;
+    padding-right: 50px;
+}
+#section2-part2{
+    width:72%;
+    padding: 10px 0px;
+}
+#section2-part2-subpart1{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid black;
+}
+#section2-part2-subpart2{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.LM{
+    padding:0px 25px;
+    height:100%;
+    width:50%;
+}
+.LM>h4{
+    font-size:30px;
+}
+.LM>p{
+    font-size:14px;
+}
+.right-border{
+    border-right:solid black;
+}
