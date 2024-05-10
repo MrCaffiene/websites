@@ -12,6 +12,12 @@ h1{
 }
 li{
     font-size: 2rem;
+    font-weight: 900;
     padding: 1rem;
     color: black;
 }
+
+
+/* for jumping back to root page use following at index page
+<a href="../index.html"></a>
+ */
