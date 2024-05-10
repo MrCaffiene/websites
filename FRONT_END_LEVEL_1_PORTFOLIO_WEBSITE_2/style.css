@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 1.8rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-part1{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    width:44%;
+}
+#nav-part2{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    width:35%;
+}
+#content{
+    padding:5%;
+}
+#content h3{
+    font-size: 3rem;
+}
+#content h1{
+    font-size: 7.5rem;
+    line-height: 7rem;
+    margin-top: 2rem;
+    font-weight: 550;
+}
+#case{
+    padding: 1rem 4rem 1.5rem 4rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+#right{
+    display: flex;
+    width:15%;
+    justify-content: space-between;
+}
+#line{
+    position:relative;
+    top: 1rem;
+    border: solid black;
+    height: 0%;
+    width: 7rem;
+}
+#projects{
+    display: flex;
+    padding: 1.1rem 1.1rem 0rem 1.1rem;
+    justify-content: space-around;
+    width:100%;
+}
+.file{
+    width: 40%;
+}
+.unified-img>img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+    border: 0.1rem solid black;
+}
+.bottom{
+    padding: 0.9rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-left>h2{
+    font-size:1.9rem;
+    font-weight: 600;
+    letter-spacing: -0.03rem;
+}
+.bottom-left>h4{
+    padding-top: 0.5rem;
+    font-size:1.3rem;
+    font-weight: 500;
+    color: grey;
+}
+.bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
+}
+.bottom-right>i{
+    font-size: 1.6rem;
+}
+.bottom-right:hover{
+    background-color: black;
+    color: white;
+}
