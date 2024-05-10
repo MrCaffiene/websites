@@ -1,9 +1,17 @@
 *{
-    text-align:center;
+    text-align: center;
     text-decoration: none;
-    
 }
 #websites-listed{
     display: flex;
     justify-content: center;
+}
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+li{
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
 }
