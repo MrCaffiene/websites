@@ -18,8 +18,8 @@ const arr_winning_pattern = [
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        if (turn) { box.innerText = "X";turn = false }
-        else { box.innerText = "O";box.style.color="green"; turn = true }
+        if (turn) { box.style.color="red";box.innerText = "X";turn = false }
+        else { box.style.color="green";box.innerText = "O"; turn = true }
         counter++;
         box.disabled = true;
         if (counter === 9) {
