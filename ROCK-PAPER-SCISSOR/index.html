@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <video autoplay loop muted play no-scroll id="background_video">
+            <source src="src/Particle_background.mp4" type="video/mp4"></source>
+        </video>
+        <h1 id="heading">Rock-Paper-Scissor</h1>
+        <div id="choices">
+            <div id="rock" class="choice"><img src="src/rocks.png" alt="rock"></div>
+            <div id="paper" class="choice"><img src="src/paper.png" alt="paper"></div>
+            <div id="scissor" class="choice"><img src="src/scissor.png" alt="scossor"></div>
+        </div>
+        <div id="message">Choose One</div>
+        <div id="scores">
+            <div>
+                <p class="entities" id="user-score">0</p>
+                <p class="entities">You</p>
+            </div>
+            <div >
+                <p class="entities" id="draw-score">0</p>
+                <p class="entities">Draw</p>
+            </div>
+            <div >
+                <p class="entities" id="bot-score">0</p>
+                <p class="entities">Bot</p>
+            </div>
+        </div>
+        <div id="lastDiv" class="entities">Total Rounds - <span id="totalRounds">0</span></div>
+        <button id="resetBtn">Reset</button>
+    </div>
+</body>
+<script src="rock-paper-scissor.js"></script>
+</html>
